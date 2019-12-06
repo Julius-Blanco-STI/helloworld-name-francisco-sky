@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author Comlab
+ */
+public class Name {
+
+    public static void main(String[] args){
+    Scanner scn = new Scanner(System.in);
+    System.out.println("What is your name? ");
+    String name = scn.nextLine();      
+    System.out.println("What is you age? ");
+    String x = scn.nextLine();
+    System.out.println("What is your Address? ");
+    String y = scn.nextLine();
+    System.out.println("Hello "+ name +" your age is "+ x +" and your Address is "+ y);
+    }
+}
